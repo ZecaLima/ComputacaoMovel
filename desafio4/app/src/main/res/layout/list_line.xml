@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#13678A">
+
+    <ImageView
+        android:id="@+id/sexList"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/NB"
+        android:layout_marginHorizontal="20dp"/>
+
+    <TextView
+        android:id="@+id/nameList"
+        android:layout_toRightOf="@+id/sexList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complete Name"
+        android:textStyle="bold"
+        android:textColor="#45C4B0"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/ageList"
+        android:layout_below="@+id/nameList"
+        android:layout_toRightOf="@+id/sexList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textStyle="bold"
+        android:textColor="#45C4B0"
+        android:textSize="18sp"/>
+
+
+
+</RelativeLayout>
