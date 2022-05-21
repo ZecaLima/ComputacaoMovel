@@ -9,7 +9,32 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="976953fa-e348-4dcb-aaf9-56522e5c1112" name="Default Changelist" comment="" />
+    <list default="true" id="976953fa-e348-4dcb-aaf9-56522e5c1112" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../LAB_PERS_2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB_PERS_2/app/src/main/res/drawable/ic_baseline_add_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB_PERS_2/app/src/main/res/layout/recyclerview_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB_PERS_2/app/src/main/res/values-16x16/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_3_4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_5/app/src/main/res/layout-land/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_5/app/src/main/res/menu/custom_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_5/app/src/main/res/values-en/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_5/app/src/main/res/values-pt/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_8/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_PERS_2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_PERS_2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_PERS_2/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_PERS_2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB_PERS_2/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_PERS_2/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_3_4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_3_4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_5/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_5/app/src/main/java/com/example/lab6/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_5/app/src/main/java/com/example/lab6/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_5/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_5/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_5/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_5/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_6_7/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_6_7/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_8/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_8/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_8/app/src/main/java/ipvc/cm/cm_aulas/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_8/app/src/main/java/ipvc/cm/cm_aulas/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_8/app/src/main/java/ipvc/cm/cm_aulas/adapters/TodoAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_8/app/src/main/java/ipvc/cm/cm_aulas/adapters/TodoAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_8/app/src/main/java/ipvc/cm/cm_aulas/models/Todo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_8/app/src/main/java/ipvc/cm/cm_aulas/models/Todo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_8/app/src/main/res/layout/todo_line.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_8/app/src/main/res/layout/todo_line.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +54,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="26sh2nOGe1Jmo5bg8DaeULTdGuM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,7 +68,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab_2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab_8" />
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">

@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         btnAddTodo.setOnClickListener{
             val todoTitle = etTodo.text.toString()
             if(todoTitle.isNotEmpty()){
-                val todo = Todo(todoTitle, LocalDate.now())
+                val todo = Todo(todo, LocalDate.now())
 
                 todoAdapter.addTodo(todo)
 

@@ -27,13 +27,20 @@ class TodoAdapter(
         val currentTodo = todos[position]
 
         holder.apply {
-            title.text = currentTodo.title
-            date.text = currentTodo.date.toString()
-            number.text = "#"+(position+1).toString()
+            pais.text = currentTodo.pais
+            capital.text = currentTodo.capital
+            habitantes.text = currentTodo.numHabitantes.toString()
+            soma.text = (currentTodo.districts + currentTodo.freguesias).toString()
+            if(currentTodo.numHabitantes<200){
+                tipo.text = "pequeno"
+            }
+            if (currentTodo.numHabitantes in 200..500){
+                tipo.text = "medio"
+            }
+            if (currentTodo.numHabitantes>500){
+                tipo.text= "alto"
+            }
         }
-//        holder.title.text = currentTodo.title
-//        holder.date.text = currentTodo.date.toString()
-//        holder.number.text = "#" + (position + 1).toString()
     }
 
     override fun getItemCount(): Int {
@@ -47,7 +54,11 @@ class TodoAdapter(
 }
 
 class TodoViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
-    val title = itemView.tvTodoTitle
-    val date = itemView.tvTodoDate
-    val number = itemView.tvTodoNumber
+    val pais = itemView.tvPais
+    val capital = itemView.tvCapital
+    val habitantes = itemView.tvHabitantes
+    val tipo = itemView.tvTipo
+    val soma = itemView.tvSoma
 }
+
+

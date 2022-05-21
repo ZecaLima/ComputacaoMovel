@@ -7,6 +7,7 @@ import kotlinx.coroutines.launch
 
 class PersonViewModel(private val repository: PersonRepository) : ViewModel() {
 
+    val allPeople: Any
     val allPeople: LiveData<List<Person>> = repository.allPeople.asLiveData()
 
     fun insert(person: Person) = viewModelScope.launch {
